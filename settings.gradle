@@ -1,1 +1,1 @@
-include ':app', ':bridges', ':featurea', ':core', ':featureb'
+include ':app', ':bridges', ':featurea', ':core', ':featureb', ':network'

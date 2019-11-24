@@ -11,9 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bridges" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/featurea" />
-            <option value="$PROJECT_DIR$/featureb" />
-            <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/taxiradar" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

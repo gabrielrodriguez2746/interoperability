@@ -1,9 +1,8 @@
 package com.dagger.interoperability
 
-import com.dagger.bridges.FeatureABridge
-import com.dagger.bridges.NetworkBridge
-import com.dagger.featurea.SomethingA
-import com.example.network.RetrofitModule
+import com.dagger.bridges.LoginServiceBridge
+import com.dagger.bridges.RuntimeManipulationServiceBridge
+import com.dagger.bridges.SettingsServiceBridge
 import dagger.Binds
 import dagger.Module
 
@@ -11,9 +10,12 @@ import dagger.Module
 abstract class BridgesModule {
 
     @Binds
-    abstract fun bindFeatureA(feature: SomethingA) : FeatureABridge
+    abstract fun bindLoginService(loginService: LoginService): LoginServiceBridge
 
     @Binds
-    abstract fun bindNetwork(network: RetrofitModule) : NetworkBridge
+    abstract fun bindSettingsService(settingsService: SettingsService): SettingsServiceBridge
+
+    @Binds
+    abstract fun bindRuntimeManipulationService(settingsService: RuntimeManipulationService): RuntimeManipulationServiceBridge
 
 }

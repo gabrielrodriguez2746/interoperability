@@ -32,6 +32,9 @@ class TaxiRadarMenuFragment : Fragment(), TaxiRadarMenuContract.View {
 
     override fun saying() {
         Toast.makeText(context, "Something", Toast.LENGTH_SHORT).show()
+        TaxiRadarMapState().run {
+            print()
+        }
     }
 
 }

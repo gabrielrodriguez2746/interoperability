@@ -1,3 +1,3 @@
 package com.dagger.bridges
 
-interface RuntimeManipulationServiceBridge
+interface RuntimeManipulationServiceBridge : Bridge

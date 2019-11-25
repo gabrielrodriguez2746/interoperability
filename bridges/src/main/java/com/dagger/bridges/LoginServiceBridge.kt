@@ -1,3 +1,3 @@
 package com.dagger.bridges
 
-interface LoginServiceBridge
+interface LoginServiceBridge : Bridge

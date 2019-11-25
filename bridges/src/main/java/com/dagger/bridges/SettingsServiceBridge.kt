@@ -1,3 +1,3 @@
 package com.dagger.bridges
 
-interface SettingsServiceBridge
+interface SettingsServiceBridge : Bridge
